@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Hotel - Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://via.placeholder.com/1600x600');
+            background-size: cover;
+            background-position: center;
+            color:darkred;
+            text-align: center;
+            padding: 100px 0;
+        }
+        nav {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .featured-rooms {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .room {
+            width: calc(33.33% - 20px);
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .room img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Grand Hotel</h1>
+    <p>Your luxurious stay awaits you</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Facilities</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="intro">
+        <h2>About Grand Hotel</h2>
+        <p>Experience luxury and comfort at Grand Hotel. Located in the heart of the city, we offer exceptional service and top-notch facilities to make your stay memorable.</p>
+    </section>
+
+    <section class="featured-rooms">
+        <div class="room">
+            <img src="https://via.placeholder.com/400x300" alt="Standard Room">
+            <h3>Standard Room</h3>
+            <p>Our standard rooms offer a comfortable and relaxing environment with all the essential amenities you need for a pleasant stay.</p>
+        </div>
+        <div class="room">
+            <img src="https://via.placeholder.com/400x300" alt="Deluxe Room">
+            <h3>Deluxe Room</h3>
+            <p>Experience luxury in our spacious deluxe rooms, featuring modern décor, extra comfort, and breathtaking city views.</p>
+        </div>
+        <div class="room">
+            <img src="https://via.placeholder.com/400x300" alt="Suite Room">
+            <h3>Suite Room</h3>
+            <p>Indulge yourself in our elegant suites, offering a blend of luxury, comfort, and personalized service for an unforgettable experience.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Grand Hotel. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
